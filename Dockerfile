@@ -6,6 +6,7 @@ FROM nginx:stable-alpine
 VOLUME ["/var/www", "/etc/nginx/conf.d","/etc/letsencrypt"]
 EXPOSE 80/tcp
 EXPOSE 443/tcp
+LABEL maintainer="neelesh.k@sarv.com"
 
 ################################################################################
 # Build instructions
